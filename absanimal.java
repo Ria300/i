@@ -3,6 +3,8 @@ abstract class Animal
 String breed;
 String color;
 abstract public void eat();
+public void speak()
+{};
 }
 
 class Dog extends Animal
@@ -33,7 +35,7 @@ System.out.println("Color= "+color+ " Breed= "+breed);
 }
 }
 
-class get
+class absanimal
 {
 public static void main(String args[])
 {
